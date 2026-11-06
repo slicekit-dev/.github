@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in the template does not work as documented.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you expected and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Commands, requests or clicks, as exact as you can.
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Template revision
+      description: The `source.revision` in `template-receipt.json`, or the commit you cloned.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - API
+        - Frontend
+        - Scaffold script (scripts/new.sh)
+        - Deployment or CI
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Remove secrets and personal data before pasting.
+      render: shell

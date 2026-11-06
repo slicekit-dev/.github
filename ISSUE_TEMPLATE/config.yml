@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Purchase or access problem
+    url: mailto:info@slicekit.dev
+    about: Missing invitation, wrong GitHub username or a billing question.
+  - name: Documentation
+    url: https://slicekit.dev/docs
+    about: Setup guides and how-tos for every module.
+  - name: Security vulnerability
+    url: https://github.com/slicekit-dev/.github/blob/main/SECURITY.md
+    about: Please report security problems privately, not as an issue.
