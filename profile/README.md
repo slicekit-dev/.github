@@ -7,7 +7,7 @@
 <h1 align="center">Slicekit</h1>
 
 <p align="center">
-  The complete .NET 10 + React SaaS template. Buy once, own the code.
+  The complete .NET 11 + React SaaS template. Buy once, own the code.
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 
 ## What you get
 
-An event-driven **.NET 10 API** (vertical slices, DDD, CQRS, messaging) paired with a typed
+An event-driven **.NET 11 API** (vertical slices, DDD, CQRS, messaging) paired with a typed
 **React 19 SPA** (TanStack, shadcn/ui). Authentication with passkeys, role presets, invitations,
 notifications, GDPR tooling, observability and CI are already wired, so you start on your product
 instead of rebuilding the same foundation.
